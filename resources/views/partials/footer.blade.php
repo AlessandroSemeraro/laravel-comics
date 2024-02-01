@@ -53,11 +53,11 @@
             </div>
         </div>
         <div class="bottom-footer df-jc">
-            <div class="container">
+            <div class="container df-sb">
             <button>Sign-up now!</button>
-            <div class="footer-socials-bar">
+            <div class="footer-socials-bar df-jc">
                 <p class="text-socials">Follow us</p>
-                <ul>
+                <ul class="df-jc">
                     <li><img src="{{ Vite::asset('resources/assets/laravel-comics/images/footer-facebook.png') }}" alt="facebook logo"></li>
                     <li><img src="{{ Vite::asset('resources/assets/laravel-comics/images/footer-twitter.png') }}" alt="twitter logo"></li>
                     <li><img src="{{ Vite::asset('resources/assets/laravel-comics/images/footer-youtube.png') }}" alt="youtube logo"></li>

@@ -23,6 +23,12 @@
 .df-jc {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.df-sb{
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -74,4 +80,19 @@ h3 {
     color: white;
     font-family: sans-serif;
     margin-bottom: 1rem;
+}
+
+button{
+    height: 3rem;
+    width: 7rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px solid #0282F9;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-socials-bar{
+    display: flex;
+    align-items: center;
 }
