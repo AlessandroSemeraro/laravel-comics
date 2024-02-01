@@ -1,13 +1,28 @@
-footer {
-    height: 35rem;
+.footer-container {
+    height: 32rem;
+
+    div.top-footer {
+        height: 25rem;
+        width: 100%;
+        background-image: url('/resources/assets/laravel-comics/images/footer-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-position-y: 0.2rem;
+        padding: 3rem 0 4rem 0;
+    }
+
+    div.bottom-footer {
+        height: 7rem;
+        width: 100%;
+        background-color: #303030;
+        display: flex;
+        align-items: center;
+    }
 }
 
-.top-footer {
-    height: 20rem;
-}
-
-.bottom-footer {
-    height: 15rem;
+.df-jc {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -16,8 +31,47 @@ footer {
     border: 1px solid red;
 }
 
-.df-jc {
+.container-col-footer {
     display: flex;
-    justify-content: center;
 }
 
+.col-dc-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.container-copyright{
+    margin-bottom: 4rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 1.2rem;
+
+    li {
+        color: gray;
+        font-size: 0.75rem;
+        font-family: sans-serif;
+        margin-bottom: 0.5rem;
+    }
+}
+
+p{
+    color: gray;
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+a{
+    text-decoration:none ;
+    color: #0282F9;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
