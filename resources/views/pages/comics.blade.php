@@ -10,7 +10,12 @@
         <h2>Current series</h2>
     </div>
     <div class="container-comics">
-        <h1>Lorem*40</h1>
+        @foreach ($comics as $comic)
+        <article class="card">
+            <img src="{{$comic['thumb']}}" alt="comic image">
+            <p>{{$comic['series']}}</p>
+        </article>
+        @endforeach
     </div>
     <div class="button-wrapper">
         <button>Load more</button>

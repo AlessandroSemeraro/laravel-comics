@@ -54,13 +54,6 @@ h2{
     height: 100%;
 }
 
-.container-comics{
-    width:70vw;
-    height: 50vh;
-    overflow-y: auto;
-    border: 1px solid red;
-}
-
 .comics-section{
     background-color: #1C1C1C;
     height: 40rem;
@@ -104,3 +97,17 @@ div.container span{
     margin-left: 0.75rem;
     text-transform: uppercase;
 }
+
+.container-comics{
+    width:70vw;
+    height: 50vh;
+    overflow-y: auto;
+    border: 1px solid red;
+}
+
+.card{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid red;
+}
+
